@@ -20,20 +20,22 @@
     
     <!-- INTERACTIVE WIDGETS -->
 <!-- Widget 1: City dropdown -->
-    <div class="item">
-        <h3>Filter City</h3>
-        <select id="citySelect">
-        <option value="all">All Cities</option>
-      <!-- JS will append each city here -->
-        </select>
-    </div>
-        <!-- Widget 2: Month range slider -->
+    <div class="item horizontal-container">
         <div class="item">
-        <h3>Show Months Up To:</h3>
-        <input type="range" id="monthRange" min="1" max="12" value="12"/>
-        <span id="monthLabel">All Months</span>
+            <h3>Filter City</h3>
+            <select id="citySelect">
+            <option value="all">All Cities</option>
+        <!-- JS will append each city here -->
+            </select>
         </div>
-    </div>
+            <!-- Widget 2: Month range slider -->
+            <div class="item">
+            <h3>Show Months Up To:</h3>
+            <input type="range" id="monthRange" min="1" max="12" value="12"/>
+            <span id="monthLabel">All Months</span>
+            </div>
+        </div>
+    </div> 
   
     <!-- CHART(S) -->
     <div class="item chart-container">
