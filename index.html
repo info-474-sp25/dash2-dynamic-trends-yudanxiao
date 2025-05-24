@@ -19,19 +19,22 @@
     </div>
     
     <!-- INTERACTIVE WIDGETS -->
-    <div class="item horizontal-container">
-        <div class="item"><!-- Your widget 1 code goes here. -->
-            <!-- Widget 1 title -->
-            <!-- Widget 1 element -->
-        </div>
-
-        <!-- DELETE THE FOLLOWING DIV IF YOU ONLY HAVE 1 WIDGET. -->
-        <div class="item"><!-- Your widget 2 code goes here. -->
-            <!-- Widget 2 title -->
-            <!-- Widget 2 element -->
+<!-- Widget 1: City dropdown -->
+    <div class="item">
+        <h3>Filter City</h3>
+        <select id="citySelect">
+        <option value="all">All Cities</option>
+      <!-- JS will append each city here -->
+        </select>
+    </div>
+        <!-- Widget 2: Month range slider -->
+        <div class="item">
+        <h3>Show Months Up To:</h3>
+        <input type="range" id="monthRange" min="1" max="12" value="12"/>
+        <span id="monthLabel">All Months</span>
         </div>
     </div>
-
+  
     <!-- CHART(S) -->
     <div class="item chart-container">
         <h2>Average Actual Mean Temperature in °F 2014-2015</h2>
