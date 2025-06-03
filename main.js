@@ -109,7 +109,7 @@ function updateChart(selectedCities, maxMonth) {
      .attr('x', -height / 2)
      .attr('y', -50)
      .attr('text-anchor', 'middle')
-     .text('Avg Mean Temp (°F)');
+     .text('Avg Actual Mean Temp (°F)');
 
   // Line generator
   const lineGen = d3.line()
